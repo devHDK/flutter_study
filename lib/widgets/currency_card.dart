@@ -19,7 +19,6 @@ class CurrencyCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return (Container(
       clipBehavior: Clip.hardEdge,
       transform: Matrix4.translationValues(0, -(order * 20), 0),
